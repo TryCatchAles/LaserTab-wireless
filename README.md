@@ -1,0 +1,52 @@
+# Laser Security System - Sentry Pro
+
+An automated laser tripwire security system using ESP32 microcontrollers and a Flask web server.
+
+## Project Team
+- Mohamed-Amine Moustakbal
+- Ales Laiche
+- Hyunseo Jeong
+- Sitan Zhou
+
+## Features
+- Real-time laser tripwire detection
+- Web-based control interface
+- Automatic Alt+Tab trigger on alarm
+- ARM/DISARM system controls
+- Serial communication with ESP32
+
+## Hardware Components
+- ESP32 microcontrollers (ESP A and ESP B)
+- Laser module
+- Photoresistor/Light sensor
+
+## Setup
+
+### Requirements
+```bash
+pip install flask pyserial pyautogui
+```
+
+### ESP Configuration
+1. **ESP A**: Upload the sketch from `ESP A/sketch_jan17d/`
+2. **ESP B**: Upload the sketch from `ESP B/sketch_jan17c/`
+
+### Running the Server
+```bash
+python tripwire_server.py
+```
+
+The web interface will be available at `http://localhost:5000`
+
+## Configuration
+- Update `SERIAL_PORT` in `tripwire_server.py` to match your COM port (e.g., COM3, COM4)
+- Default baud rate: 115200
+
+## Usage
+1. Connect ESP32 devices to your computer
+2. Run the Flask server
+3. Open the web interface
+4. Use ARM/DISARM buttons to control the system
+5. When the laser is broken, the system triggers an automatic Alt+Tab
+
+© 2026 Sentry Pro Security Solutions
