@@ -23,13 +23,13 @@ An automated laser tripwire security system using ESP32 microcontrollers and a F
 ## Hardware Setup
 
 ### Board A - Complete Setup
-![Whole Board Connection](Whole%20board%20connection.HEIC)
+![Board A Complete Setup](board-a-complete.jpg)
 
 ### Laser and Sensor Connections
-![Laser and Sensor Connection](Laser%20and%20sensor%20connection.HEIC)
+![Laser and Sensor Connections](laser-sensor-connections.jpg)
 
 ### ESP B - PC Connection
-![ESP B Connection](ESP%20B%20connection.HEIC)
+![ESP B Connection](esp-b-connection.jpg)
 
 ## Wiring Connections
 
