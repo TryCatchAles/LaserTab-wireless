@@ -20,6 +20,22 @@ An automated laser tripwire security system using ESP32 microcontrollers and a F
 - Laser module
 - Photoresistor/Light sensor
 
+## Wiring Connections
+
+### Laser Sensor (connected to ESP32)
+- **GND** → GND on ESP32
+- **VCC** → 3.3V on ESP32
+- **Output** → Pin 34 on ESP32
+
+### Laser Module (connected to ESP32)
+- **VCC** → Pin 2 on ESP32
+- **GND** → GND on ESP32
+
+**Important:** Ensure you have a sufficient power supply for the protocol to work correctly.
+
+### PC Connection
+- **ESP B** is connected to the PC via USB for serial communication
+
 ## Setup
 
 ### Requirements
