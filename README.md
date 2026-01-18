@@ -76,4 +76,11 @@ The web interface will be available at `http://localhost:5000`
 4. Use ARM/DISARM buttons to control the system
 5. When the laser is broken, the system triggers an automatic Alt+Tab
 
+## Demo Video
+Check out our hilarious demo video showcasing the system in action! 🎥
+
+[![Watch the Demo](https://img.youtube.com/vi/QQh3vGynw08/maxresdefault.jpg)](https://www.youtube.com/watch?v=QQh3vGynw08)
+
+---
+
 © 2026 Sentry Pro Security Solutions
