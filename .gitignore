@@ -20,3 +20,11 @@ Thumbs.db
 
 # Temporary files
 tempCodeRunnerFile.py
+
+# Old/Archive folders
+ESP Bluetooth (Old)/
+
+# Image archives
+*.zip
+*.HEIC
+*.heic
